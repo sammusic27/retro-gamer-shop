@@ -1,0 +1,53 @@
+html, body, #root{
+    height: 100%;
+    width: 100%;
+}
+#wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    background: #313131;
+    color: #fff;
+    flex: auto;
+    padding: 5px 15px;
+}
+#main {
+    flex: 100;
+}
+
+.card-holder{
+    padding: 15px;
+}
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #333;
+    margin: 0 10px 10px 0;
+}
+.card .img {
+    width: 100%;
+    overflow: hidden;
+    height: 90px;
+}
+
+.card .img img {
+    width: 100%;
+}
+.card .text-holder{
+    padding: 5px;
+}
+
+#footer{
+    background: #313131;
+    color: #fff;
+    flex: auto;
+    text-align: center;
+    padding: 15px 15px 0;
+}
